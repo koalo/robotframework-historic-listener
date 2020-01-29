@@ -35,7 +35,7 @@ Listener to push robotframework execution results to MySQL (for Robotframework H
  - Use `robotframework-historic-listener` while executing tests
 
    ```
-   > robot --listener robotframework_historic_listener.listener
+   > robot --listener robotframework_historic_listener.Listener
     -v SQL_HOST:"<SQL_HOSTED_IP:3306>"
     -v SQL_USER_NAME:"<NAME>"
     -v SQL_PASSWORD:"<PWD>"
@@ -45,7 +45,7 @@ Listener to push robotframework execution results to MySQL (for Robotframework H
 
    __Example:__
    ```
-   > robot --listener robotframework_historic_listener.listener
+   > robot --listener robotframework_historic_listener.Listener
     -v SQL_HOST:"10.30.2.150:3306"
     -v SQL_USER_NAME:"admin"
     -v SQL_PASSWORD:"Welcome1!"
