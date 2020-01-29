@@ -74,7 +74,7 @@ Listener to push robotframework execution results to MySQL (for Robotframework H
  - Use variable file while using listener
 
    ```
-   > robot --listener robotframework_historic_listener.listener -V config.py <suite>
+   > robot --listener robotframework_historic_listener.Listener -V config.py <suite>
    ```
 
 ---
