@@ -3,7 +3,7 @@
 Listener to push robotframework execution results to MySQL (for Robotframework Historic report)
 
 ![PyPI version](https://badge.fury.io/py/robotframework-historic-listener.svg)
-[![Downloads](https://pepy.tech/badge/robotframework-historic)](https://pepy.tech/project/robotframework-historic-listener)
+[![Downloads](https://pepy.tech/badge/robotframework-historic-listener)](https://pepy.tech/project/robotframework-historic-listener)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
