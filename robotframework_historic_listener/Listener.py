@@ -109,8 +109,8 @@ def update_results_mysql_table(con, eid, total, passed, failed, duration):
 
 def insert_into_test_results_mysql_table(con, eid, test, status, duration, msg):
     cursorObj = con.cursor()
-    sql = "INSERT INTO test_results (ID, TESTCASE, STATUS, TIME, MESSAGE) VALUES (%s, %s, %s, %s, %s)"
-    val = (eid, test, status, duration, msg)
+    sql = "INSERT INTO test_results (ID, UID, TESTCASE, STATUS, TIME, MESSAGE) VALUES (%s, %s, %s, %s, %s, %s)"
+    val = (eid, 0, test, status, duration, msg)
     cursorObj.execute(sql, val)
     # Skip commit to avoid load on db (commit once execution is done as part of close)
     # con.commit()
