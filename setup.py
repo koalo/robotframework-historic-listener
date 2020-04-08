@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
       name='robotframework-historic-listener',
-      version="0.1.4",
+      version="0.1.7",
       description='Listener to push robotframework execution results to MySQL',
       classifiers=[
           'Framework :: Robot Framework',
